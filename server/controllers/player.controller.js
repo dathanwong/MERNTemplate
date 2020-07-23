@@ -1,5 +1,4 @@
 const { Player } = require("../models/player.model");
-const { json } = require("express");
 
 module.exports.index = (req, res)=>{
     res.json({
