@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect("mongodb://localhost/piratedb", {
+mongoose.connect("mongodb://localhost/searchdatadb", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
